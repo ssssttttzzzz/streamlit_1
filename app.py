@@ -17,7 +17,15 @@ def get_mycard():
       i+=1
   return my_card
 if st.button("发牌！"):
-  my_card = get_mycard()    
+  my_card = get_mycard()  
+  st.text("____________________
+           |                  |
+           |                  |
+           |                  |
+           |                  |
+           |                  |
+           |                  |
+          ")
   st.title(my_card[0])
   st.title(my_card[1])
   st.title(my_card[2])
