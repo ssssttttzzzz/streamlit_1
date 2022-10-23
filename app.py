@@ -17,4 +17,6 @@ def get_mycard():
       i+=1
   return my_card
 my_card = get_mycard()    
-st.title(my_card)
+st.title(my_card[0])
+st.title(my_card[1])
+st.title(my_card[2])
