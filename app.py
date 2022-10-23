@@ -16,7 +16,7 @@ def get_mycard():
       my_card[i]=creat_card
       i+=1
   return my_card
-if st.button("发牌！")：
+if st.button("发牌！"):
   my_card = get_mycard()    
   st.title(my_card[0])
   st.title(my_card[1])
