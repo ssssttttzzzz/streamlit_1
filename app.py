@@ -21,4 +21,4 @@ if st.button("发牌！"):
   st.title(my_card[0])
   st.title(my_card[1])
   st.title(my_card[2])
-  st.title("🂮🂷🂸🃂🃁")
+
