@@ -18,7 +18,8 @@ def get_mycard():
   return my_card
 if st.button("发牌！"):
   my_card = get_mycard()  
-  st.title(my_card[0])
-  st.title(my_card[1])
-  st.title(my_card[2])
+  with st.expander("看看我的牌"):
+    st.title(my_card[0])
+    st.title(my_card[1])
+    st.title(my_card[2])
 
